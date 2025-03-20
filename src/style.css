@@ -35,7 +35,6 @@ header {
   text-align: center;
   flex-direction: row;
   justify-content: space-around;
-  
 }
 
 .logo {
@@ -43,8 +42,7 @@ header {
   align-self: flex-start;
 }
 
-
-.block-header{
+.block-header {
   width: 1110px;
   margin: auto;
   display: flex;
@@ -55,18 +53,27 @@ header {
 .container {
   width: 1110px;
   margin: auto;
+  font-family: Oswald;
 }
 
 .advancher {
   display: flex;
-  background-color: #F7F7F7; 
+  background-color: #f7f7f7;
   margin: 0;
   justify-content: space-evenly;
   text-align: center;
+  height: 300px;
+  margin-top: -150px;
+  align-items: center;
+}
+
+.yers {
+  font-family: Oswald;
+  font-weight: 500;
 }
 
 .number {
-  color: #F7654A;
+  color: #f7654a;
   font-size: 72px;
   font-weight: 500;
   font-family: Oswald;
@@ -81,6 +88,87 @@ header {
   margin: 0;
 }
 
-.subtitle-number{
+.subtitle-number {
   color: #999999;
+}
+
+.big-project {
+  font-size: 36px;
+  color: rgba(64, 65, 73, 1);
+  text-align: center;
+  padding-top: 100px;
+}
+
+.text-header-card {
+  font-family: Oswald;
+  font-size: 24px;
+  color: rgba(0, 0, 0, 1);
+}
+.main-text {
+  font-size: 16px;
+  color: rgba(153, 153, 153, 1);
+  font-weight: 400;
+}
+
+.project {
+  display: flex;
+}
+
+.request {
+  background-color: rgba(247, 101, 74, 1);
+  padding-top: 45px;
+  padding-bottom: 45px;
+  margin-top: 150px;
+}
+.request-text {
+  color: rgba(255, 255, 255, 1);
+}
+
+.request-text h2 {
+  font-size: 48px;
+  margin: 0;
+}
+
+.request-text span {
+  font-size: 24px;
+}
+
+.request-block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.your-question {
+  width: 175px;
+  height: 49px;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 1);
+  text-align: center;
+  background-color: rgba(255, 255, 255, 1);
+  font-family: Oswald;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border: none;
+  flex-direction: row-reverse;
+}
+
+.services {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.service-item {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 350px;
+  height: 250px;
+  background-color: rgba(247, 247, 247, 1);
+  margin-bottom: 30px;
 }
