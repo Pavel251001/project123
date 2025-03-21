@@ -172,3 +172,109 @@ header {
   background-color: rgba(247, 247, 247, 1);
   margin-bottom: 30px;
 }
+
+.portfolio {
+  height: 814px;
+  width: 100%;
+  background-image:url("/src/img/Rectangle\ 4.png");
+  margin-bottom: 150px;
+}
+
+.question {
+  display: flex;
+  flex-direction: column;
+  width: 730px;
+  height: 452px;
+}
+
+.quest {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  color: #F7654A;
+}
+
+.quest h2 {
+  padding-left: 15px;
+}
+
+.quest-open {
+  display: flex;
+  align-items: center;
+}
+
+.question span {
+  color: #999999;
+  font-family: Oswald;
+}
+
+.partners {
+  height: 364;
+  background-color: #404149;
+  color: #FFFFFF;
+  margin-top: 150px;
+  font-size: 36px;
+  font-family: Oswald;
+  text-align: center;
+  padding: 100px 405px 100px 405px;
+}
+
+.logo-partner {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.feedback-person {
+  background-color: #F7F7F7;
+  font-family: Oswald;
+  font-size: 14px;
+  padding: 38px 30px 38px 30px;
+  width: auto;
+  flex-direction: column;
+  display: flex;
+}
+
+.feedback {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.feedback-text {
+  width: 290px;
+  height: 142px;
+}
+
+.feedback-header {
+  text-align:center;
+  font-size: 36px;
+  color: black;
+  margin-top: 150px;
+}
+
+.person-column span{
+  font-size: 21px;
+  font-family: Oswald;
+}
+
+.person-column .FIO {
+  color: black;
+}
+
+.person-column .company {
+  color: #F7654A;
+}
+
+.contact-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 255px;
+  height: 191px;
+}
+
+.contact-item h2 {
+  
+}
