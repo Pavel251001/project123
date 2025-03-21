@@ -267,14 +267,37 @@ header {
   color: #F7654A;
 }
 
+.contact {
+margin-top: 150px;
+display: flex;
+justify-content: space-around;
+
+}
+
+
 .contact-item {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 255px;
-  height: 191px;
+  padding: 0;
+  margin: 0;
 }
 
-.contact-item h2 {
+.contact-item h3,h2 {
+  text-align: center;
+  margin: 0;
   
+}
+
+footer {
+  margin-top: 150px;
+  background-color: rgba(64, 65, 73, 1);
+  height: 82px;
+}
+
+.footer-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
 }
